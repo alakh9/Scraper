@@ -1,0 +1,29 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "app wil scrape articles from news site and users can leave comments on them",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alakh9/Scraper.git"
+  },
+  "author": "alakh sheth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alakh9/Scraper/issues"
+  },
+  "homepage": "https://github.com/alakh9/Scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.0.3",
+    "path": "^0.12.7",
+    "request": "^2.83.0"
+  }
+}
