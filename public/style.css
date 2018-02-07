@@ -1,15 +1,16 @@
 body{
-    background: red;
+    background: url("news.jpg");
 }
-/* section{
-    background: wheat;
-    width: 60%;
-    height: auto;
-    margin-left: 7%;
-    padding-left: 25%; */
 
-/* } */
 h1{
     font-family: 'Lily Script One', cursive;
     font-size: 60px;
+    color: black;
+}
+.story-body {
+	margin: auto;
+	width: 95%;
+	min-height: 200px;
+	box-shadow: 0 0 10px #aaa;
+	background-color: red;
 }
